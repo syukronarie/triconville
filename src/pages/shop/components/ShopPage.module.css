@@ -1,0 +1,38 @@
+.products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	gap: 1rem;
+	margin: 0 5rem;
+}
+
+.product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.productImage {
+	height: 10rem;
+	z-index: -1;
+	transition: all ease-in-out 0.3s;
+}
+
+.productName {
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-bottom: 0.2rem;
+	color: #2b2b2b;
+}
+
+.productPrice {
+	font-size: 0.9rem;
+	color: #2b2b2b;
+}
+
+.product:hover .productImage {
+	transform: scale(1.2);
+	z-index: -1;
+	transition: all ease-in-out 0.3s;
+}

@@ -1,0 +1,163 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	background-color: #fff;
+	height: auto;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 2rem 2rem;
+	gap: 9rem;
+}
+
+.leftSide {
+}
+
+.leftSide .form {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.leftSide .form div {
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 1rem;
+}
+
+.button {
+	text-align: center;
+	border: none;
+	padding: 1rem 2rem;
+	background-color: #000;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 600;
+	border: #000 solid 2px;
+	text-transform: uppercase;
+	margin-left: 0.8rem;
+	transition: all ease-in-out 0.2s;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.input {
+	margin-top: 0.5rem;
+	padding: 0.7rem 0.5rem;
+	width: 18rem;
+	border-radius: 10px;
+	border: 1px solid #bbbbbb;
+	font-size: 1rem;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.rightSide h3 {
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.rightSideContent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px #bbbbbb solid;
+	padding: 0.5rem;
+	padding-right: 2rem;
+}
+.productImage {
+	display: flex;
+	align-items: center;
+}
+
+.productImage img {
+	height: 5rem;
+}
+
+.productDetails {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.productName {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 0.2rem;
+}
+
+.productPrice,
+.productQuantity {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.actionQuantity {
+	border: solid 2px #cccccc;
+}
+
+.actionQuantity button {
+	padding: 0.8rem 1rem;
+	background-color: #fff;
+	border: none;
+	font-size: 1.25rem;
+}
+
+.actionQuantity button:focus {
+	outline: none;
+}
+
+.actionQuantity button:hover {
+	background-color: #000;
+	color: #fff;
+	transition: all ease-in-out 0.2s;
+}
+
+.actionQuantity input {
+	text-align: center;
+	width: 2rem;
+	background-color: #fff;
+	border: none;
+	padding-left: 1.3rem;
+}
+
+.actionQuantity input:focus {
+	outline: none;
+}
+
+.actionCart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.actionCart button {
+	text-align: center;
+	border: none;
+	padding: 1rem 3rem;
+	background-color: #000;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 600;
+	border: #000 solid 2px;
+	text-transform: uppercase;
+	margin-left: 0.8rem;
+}

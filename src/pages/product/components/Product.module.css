@@ -1,0 +1,100 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	background-color: #f8f7f5;
+	height: auto;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 2rem 2rem;
+}
+
+.productImage {
+	display: flex;
+	align-items: center;
+}
+
+.productImage img {
+	height: 30rem;
+}
+
+.productDetails {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.productName {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 0.2rem;
+}
+
+.productPrice,
+.productQuantity {
+	font-size: 1.25rem;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.actionQuantity {
+	border: solid 2px #cccccc;
+}
+
+.actionQuantity button {
+	padding: 0.8rem 1rem;
+	background-color: #f8f7f5;
+	border: none;
+	font-size: 1.25rem;
+}
+
+.actionQuantity button:focus {
+	outline: none;
+}
+
+.actionQuantity button:hover {
+	background-color: #000;
+	color: #fff;
+	transition: all ease-in-out 0.2s;
+}
+
+.actionQuantity input {
+	text-align: center;
+	width: 2rem;
+	background-color: #f8f7f5;
+	border: none;
+	padding-left: 1.3rem;
+}
+
+.actionQuantity input:focus {
+	outline: none;
+}
+
+.actionCart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.actionCart button {
+	text-align: center;
+	border: none;
+	padding: 1rem 3rem;
+	background-color: #000;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: 600;
+	border: #000 solid 2px;
+	text-transform: uppercase;
+	margin-left: 0.8rem;
+}
