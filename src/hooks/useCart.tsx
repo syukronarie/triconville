@@ -140,20 +140,6 @@ const useCart = (): [State, Dispatch<Action>] => {
 		};
 		getCartProduct();
 	}, []);
-
-	// useEffect(() => {
-	// 	if (state.products) {
-	// 		let newPrd = Array.from(state.products.entries());
-	// 		if (newPrd) {
-	// 			console.log(newPrd);
-	// 			localStorage.setItem(
-	// 				`user:product:cart`,
-	// 				JSON.stringify({ products: newPrd })
-	// 			);
-	// 		}
-	// 	}
-	// }, [state.products]);
-
 	return [state, dispatch];
 };
 
