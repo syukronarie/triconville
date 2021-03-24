@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import styles from "./components/HomePage.module.css";
+
 import HomeCarousel from "./components/HomeCarousel";
+import styles from "./components/HomePage.module.css";
 
 const HomePage: React.FC = () => {
 	return (
