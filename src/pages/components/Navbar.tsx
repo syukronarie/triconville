@@ -1,7 +1,8 @@
 import { useContext, useEffect, useState } from "react";
-import styles from "./Navbar.module.css";
-import { MyCartPage } from "./my_cart/MyCartPage";
+
 import { CartContext } from "../../context/CartContext";
+import { MyCartPage } from "./my_cart/MyCartPage";
+import styles from "./Navbar.module.css";
 
 const Navbar: React.FC = () => {
 	const [isActive, setIsActive] = useState(false);
