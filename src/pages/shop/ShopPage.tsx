@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+
 import fetchProducts from "../../api/fetchProducts";
 import Products from "../../model/Products";
 import styles from "./components/ShopPage.module.css";
