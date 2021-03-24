@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+
 import fetchProduct from "../../api/fetchProduct";
 import { CartContext } from "../../context/CartContext";
 import Products from "../../model/Products";
-// import { Link } from "react-router-dom";
 import styles from "./components/Product.module.css";
 
 export interface ProductId {
