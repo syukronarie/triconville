@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import fetchProducts from "../../../api/fetchProducts";
 import { CartContext } from "../../../context/CartContext";
 import Products from "../../../model/Products";
 import styles from "./MyCartPage.module.css";
-import { Link } from "react-router-dom";
 
 interface Props {
 	isActive: boolean;

@@ -14,9 +14,6 @@
 	gap: 9rem;
 }
 
-.leftSide {
-}
-
 .leftSide .form {
 	display: flex;
 	flex-flow: column;
