@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+
+import styles from "./App.module.css";
 import CartContextProvider from "./context/CartContext";
 import CheckoutPage from "./pages/checkout/CheckoutPage";
 import Navbar from "./pages/components/Navbar";
 import HomePage from "./pages/home/HomePage";
 import ProductPage from "./pages/product/[id]";
 import ShopPage from "./pages/shop/ShopPage";
-import styles from "./App.module.css";
 
 const App: React.FC = () => {
 	return (
