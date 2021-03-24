@@ -1,4 +1,5 @@
 import { Dispatch, useEffect, useReducer } from "react";
+
 import addToCart from "../api/addToCart";
 import { UnreachableCaseError } from "../util/UnreachableCaseError";
 
@@ -139,7 +140,7 @@ const useCart = (): [State, Dispatch<Action>] => {
 			}
 		};
 		getCartProduct();
-	}, []);
+	}, [dispatch]);
 	return [state, dispatch];
 };
 

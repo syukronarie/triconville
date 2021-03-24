@@ -1,7 +1,7 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
 import buyNow, { Orderlines } from "../../api/buyNow";
 import fetchProduct from "../../api/fetchProduct";
-import { CartContext } from "../../context/CartContext";
 import Products from "../../model/Products";
 import styles from "./components/Checkout.module.css";
 
